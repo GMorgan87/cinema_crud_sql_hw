@@ -68,5 +68,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
 
+DELETE FROM movies WHERE title IN ('Iron Man', 'Iron Man 2', 'Irom Man 3');
+
 -- SELECT name FROM people
 SELECT * FROM movies
